@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="navbar"><h1>BOOKIE</h1></div>
+    <div class="container">
+        <div class="book-container">
+        <h1 id="title">money makes</h1>
+        <h3 id="author">harry petter</h3>
+        <p id="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem inventore provident ipsum? Optio ad neque, minus consequuntur excepturi tenetur inventore quisquam aliquam ea quas, omnis dicta impedit qui? Unde, dolor.</p>
+     <button id="del" onclick="deletebook(event)">delete</button></div>
+    
+    </div>
+    <div class="overlay"></div>
+    <div class="popup">
+        <h1 id="tit">ADD BOOK</h1>
+        <form>
+            <input type="text" placeholder="Book Title" id="title-input">
+            <input type="text" placeholder="author name" id="author-input">
+            <textarea placeholder="add description" id="des-input"></textarea>
+            <button id="add-btn">add</button>
+            <button id="can-btn">cancel</button>
+        </form>
+    </div>
+    <button class="addbutton" id="add-pop-button">+</button>
+    
+  <script src="script.js"></script>  
+</body>
+</html>
